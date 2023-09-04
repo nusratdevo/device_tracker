@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 	'device_app.apps.DeviceAppConfig',
     'rest_framework',
+	'drf_yasg',
 
 ]
 

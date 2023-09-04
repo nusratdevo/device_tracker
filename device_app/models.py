@@ -36,11 +36,15 @@ class Device(models.Model):
 
     def __str__(self):
         return self.name
-    
+
 class DeviceLog(models.Model):
     device = models.ForeignKey(Device, on_delete=models.CASCADE)
+    device_name = models.CharField(max_length=100, null=True, blank=True)
+    company_name = models.CharField(max_length=100, null=True, blank=True)
     condition = models.CharField(max_length=50)
     timestamp = models.DateTimeField(auto_now_add=True)
+    checked_out = models.DateTimeField(null=True, blank=True)
+
 
     def __str__(self):
         return f"{self.device.name} - {self.timestamp}"

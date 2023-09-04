@@ -25,6 +25,6 @@ class DeviceAdmin(admin.ModelAdmin):
 
  # DeviceLog Admin registe 
 class DeviceLogAdmin(admin.ModelAdmin):
-    list = ('device', 'condition', 'timestamp')
+    list = ('id','device', 'condition', 'timestamp')
     admin.site.register(DeviceLog)
     
