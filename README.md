@@ -19,7 +19,7 @@ python manage.py runserver
 npm start
 ```
 
-# Create the Django API with token-based JWT authentication: django App
+# Create the Django API With Django restFramework: 
 * add vurtual environment
 * For the First, Install Django ,djangorestframework
 * install all requirement.txt file package
@@ -30,12 +30,6 @@ cd device_tracker
 python manage.py startapp device_app
 
 ```
-
-
----
-
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
 ## SCREENSHOTS:**
